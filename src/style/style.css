@@ -1,0 +1,19 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --dark: #082c4c;
+    --light: #fffcfc;
+    --main: #00bfff;
+}
+
+.darkmode {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.lightmode {
+    background-color: var(--light);
+    color: var(--dark);
+}
