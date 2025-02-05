@@ -3,7 +3,6 @@ import { Outlet } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 import Mode from "../components/Mode.tsx";
-import About from './About.tsx';
 
 function App() {
     const [mode, setMode] = useState<boolean>(() => {
