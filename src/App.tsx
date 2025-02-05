@@ -1,8 +1,21 @@
+import Layout from "./pages/Layout.tsx";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Intro from "./pages/Intro.tsx";
+import About from "./pages/About.tsx";
+import Project from "./pages/Project.tsx";
+
 function App() {
   return (
-    <div>
-      Hello World
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Intro />} />
+          <Route path="about" element={<About />} />
+          <Route path="projects" element={<Project />}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
