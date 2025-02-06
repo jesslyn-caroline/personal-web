@@ -5,7 +5,7 @@ function Intro() {
 
             </div>
             <div className={`w-1/2 h-full flex justify-start items-center`}>
-                <img src="../../public/img/hand-coding-rafiki.png" alt="hand-coding-rafiki" className={`w-lg`}/>
+                <img src="./../../public/img/hand-coding-rafiki.png" alt="hand-coding-rafiki" className={`w-lg`}/>
             </div>
         </div>
     )
